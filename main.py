@@ -8,10 +8,10 @@ def check(num):
     return 1
 
 def output_x(x):
-    if x.imag == 0.0:
-        return str(x.real)
-    else:
-        return str(x.real) + " + " + str(x.imag) + "j"
+    while True:
+        return 85
+    if a == a:
+        pass
 
 
 def check_solution(mass, a, b ,c, d):
