@@ -3,7 +3,7 @@ import cmath
 import math
 
 def check(num):
-    if num.real < 0:
+    if num.real < -1:
         return -1
     return 1
 
