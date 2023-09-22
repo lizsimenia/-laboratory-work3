@@ -17,7 +17,7 @@ def lalal_x(x):
 
 def main():
     a, b ,c, d = map(int, input("\nВведите четыре коэффицента: ").split())
-    solutions = list(set(round(i.real, 2)+ round(i.imag, 2)*1j for i in solve(a, b ,c, d, e, f, g)))
+    solutions = list(set(round(i.real, 2)+ round(i.imag, 2)*1j for i in solve(c, d, e, f, g)))
     print("Корни уравнения:", ", ".join(output_x(i) for i in solutions), "\n")
     check_solution(solutions, a, b ,c, d)
 
